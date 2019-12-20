@@ -3,9 +3,9 @@
         "type": "composer",
         "url": "https://packagist.org"
     }],
-    "name": "wildbit/postmark-php",
+    "name": "gtethan/postmark-php",
     "license": "MIT",
-    "description": "The officially supported client for Postmark (http://postmarkapp.com)",
+    "description": "Postmark PHP with support for further domain verification",
     "require": {
         "php": ">=5.5.0",
         "guzzlehttp/guzzle": "~6.0"
