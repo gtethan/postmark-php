@@ -24,6 +24,11 @@ class CaseInsensitiveArray implements \ArrayAccess, \Iterator {
 		$this->_container = array_change_key_case($initialArray);
 	}
 
+	public function getData()
+	{
+		return $this->_container;
+	}
+
 	public function offsetSet($offset, $value) {
 		if (is_string($offset)) {
 			$offset = $this->fixOffsetName($offset);
